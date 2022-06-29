@@ -1395,11 +1395,11 @@ message: {
                 },
 	 message: { 
                  "videoMessage": { 
-                 "title": `Xeon`,
-                 "h": `Xeon`,
+                 "title": `RIRIWGaming`,
+                 "h": `RIRIWGaming`,
                  'duration': '99999', 
                  'gifPlayback': 'true', 
-                 'caption': `Xeon`,
+                 'caption': `RIRIWGaming`,
                  'jpegThumbnail': fs.readFileSync('./XeonMedia/theme/Cheems-bot.mp4')
                         }
                        }
@@ -1605,7 +1605,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Script 🍜',
+                                    displayText: 'Instagram 🌷',
                                     url: `${botscript}`
                                 }
                             }, {
@@ -1620,7 +1620,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner 🤣',
+                                    displayText: 'Owner 👤',
                                     id: 'owner'
                                 }
                             }]
@@ -1636,10 +1636,10 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                         } else if (setbot.templateDocument) {
                         let buttonmenu = [
         	{ urlButton: { displayText: `YouTube 🍒`, url : `${websitex}` } },
-            { urlButton: { displayText: `Script 🍜`, url: `${botscript}` } },
+            { urlButton: { displayText: `Instagram 🌷`, url: `${botscript}` } },
             { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
             { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
-            { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
+            { quickReplyButton: { displayText: `Owner 👤`, id: 'owner'} }
         	]
         	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
                         }
@@ -1652,10 +1652,10 @@ if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
 let buttonmenu = [
         	{ urlButton: { displayText: `YouTube 🍒`, url : `${websitex}` } },
-            { urlButton: { displayText: `Script 🍜`, url: `${botscript}` } },
+            { urlButton: { displayText: `Instagram 🌷`, url: `${botscript}` } },
             { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
             { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
-            { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
+            { quickReplyButton: { displayText: `Owner 👤`, id: 'owner'} }
         	]
         	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
         	break
@@ -1707,8 +1707,8 @@ case 'me': case 'inventory': case 'profile':{
      teksehmazeh += `_*${pushname}*_`
      let butRun = [
         	{ urlButton: { displayText: `YouTube 🍒`, url : `${websitex}` } },
-        	{ urlButton: { displayText: `Script 🍜`, url : `${botscript}` } },
-            { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'}},
+        	{ urlButton: { displayText: `Instagram 🌷`, url : `${botscript}` } },
+            { quickReplyButton: { displayText: `Owner 👤`, id: 'owner'}},
             { quickReplyButton: { displayText: `Leaderboard 🎢`, id: 'leaderboard'} }
         	]
         	XeonBotInc.sendMessage(m.chat, { caption: teksehmazeh, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `Want to adventure again?`, templateButtons: butRun, footer: `${botname}`, mentions: [m.sender] })
@@ -1750,14 +1750,8 @@ if (isBan) return reply(mess.ban)
 if (isBanChat) return reply(mess.banChat)
 reply(` Don't forget to join yeah!
 
-*GROUP 1*
-https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS
-
-*GROUP 2*
-https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5
-
-*GROUP 3*
-https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd`)
+*GROUP*
+https://chat.whatsapp.com/ErkhRRtzFyI9fyYcpMC1VN`)
 break
 case 'getsxvdxcmd': {
 if (isBan) return reply(mess.ban)	 			
@@ -4652,7 +4646,7 @@ case 'chat': {
 	   if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!isCreator) return reply(mess.owner)
-if (!args.join(" ")) return reply(`Example :\n${prefix + command} 916909xxxxxx|Hi`)
+if (!args.join(" ")) return reply(`Example :\n${prefix + command} 628xxxxxxxxx|Hi`)
 const cpes = args.join(" ")
 const nony = cpes.split("|")[0];
 const pesny = cpes.split("|")[1];
@@ -9154,7 +9148,7 @@ url: `${global.websitex}`
 }
 }, {
 urlButton: {
-displayText: 'Script 🍜',
+displayText: 'Instagram 🌷',
 url: `${global.botscript}`
 }
 }, {
@@ -9195,7 +9189,7 @@ url: `${global.websitex}`
 }
 }, {
 urlButton: {
-displayText: 'Script 🍜',
+displayText: 'Instagram 🌷',
 url: `${global.botscript}`
 }
 }, {
